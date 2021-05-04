@@ -11,7 +11,7 @@ Ethereal, which combines a robust side-scrolling framework of my own creation (w
 look and feel, a lightbox gallery, tons of customization options, and, of course, full
 responsiveness. Hope you dig it :)
 
-Demo images_banner* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images_banner
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
 
 (* = not included)
@@ -59,7 +59,7 @@ Instructions:
 		  home/end, and the spacebar to scroll the page.
 
 		Note that any (or all) of these scroll-assist features can be turned off (and in some
-		cases customized). See the top of assets_banner/js/main.js for more information.
+		cases customized). See the top of assets/js/main.js for more information.
 
 
 	Span Modifiers
@@ -319,7 +319,7 @@ Instructions:
 					...
 				</div>
 
-				Note: The "group" element creates a dual-row group of images_banner. images_banner inside this group will
+				Note: The "group" element creates a dual-row group of images. Images inside this group will
 				automatically wrap to the next row when they exceed its width (as defined by its span modifier).
 				You can have as many groups in a gallery as you like.
 
@@ -345,24 +345,24 @@ Instructions:
 			Example
 
 				<div class="gallery">
-					<a href="/images_banner/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
-						<img src="/images_banner/fulls/01.jpg" alt="" />
+					<a href="/images/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
+						<img src="/images/fulls/01.jpg" alt="" />
 					</a>
-					<a href="/images_banner/thumbnails/02.jpg" class="image filtered span-4" data-position="center">
-						<img src="/images_banner/fulls/02.jpg" alt="" />
+					<a href="/images/thumbnails/02.jpg" class="image filtered span-4" data-position="center">
+						<img src="/images/fulls/02.jpg" alt="" />
 					</a>
 					<div class="group span-4">
-						<a href="/images_banner/thumbnails/03.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images_banner/fulls/03.jpg" alt="" />
+						<a href="/images/thumbnails/03.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/03.jpg" alt="" />
 						</a>
-						<a href="/images_banner/thumbnails/04.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images_banner/fulls/04.jpg" alt="" />
+						<a href="/images/thumbnails/04.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/04.jpg" alt="" />
 						</a>
-						<a href="/images_banner/thumbnails/05.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images_banner/fulls/05.jpg" alt="" />
+						<a href="/images/thumbnails/05.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/05.jpg" alt="" />
 						</a>
-						<a href="/images_banner/thumbnails/06.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images_banner/fulls/06.jpg" alt="" />
+						<a href="/images/thumbnails/06.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/06.jpg" alt="" />
 						</a>
 					</div>
 				</div>
@@ -370,7 +370,7 @@ Instructions:
 
 Credits:
 
-	Demo images_banner:
+	Demo Images:
 		Unsplash (unsplash.com)
 
 	Icons:
