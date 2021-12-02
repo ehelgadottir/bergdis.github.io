@@ -79,39 +79,32 @@
 					<!-- The network -->
 					<section id="#tester" >
 						<div class="inner">
-							<div ><iframe width="100%" height="1040" src="network.html" frameborder="1px"></iframe></div>
+							<div ><iframe width="100%" height="2500" src="network.html" frameborder="1px"></iframe></div>
 						</div>
 					</section>
 
 
-					<!--Scroller -->
-					<section id="#tester2" >
-						<div class="inner">
-							<div ><iframe width="100%" height="600" src="graphs_banner.html" frameborder="1px"></iframe></div>
-						</div>
-					</section>
-
-					<!--Scroller1 -->
-					<section id="#tester3" >
-						<div class="inner">
-							<div ><iframe width="100%" height="600" src="weather_banner.html" frameborder="1px"></iframe></div>
-						</div>
-					</section>
-
+					<!--Bokeh plot for the sentiment-->
 					<section id="testerinn" class="wrapper alt style5">
 						<section class="spotlight">
-							<iframe width="1000" height="600" src="plots/injuries.html" frameborder="0" allowfullscreen></iframe><div class="content">
-								<h2>Accident types and different weather conditions</h2>
-								<p> Alright! Now we have interactive plots for comparing weather conditions and accident types. <br>
-
-									<b>Rush hour 16-18.</b> <br>
-									For all weather conditions we see that there is a significant  <br> increase in accidents around rush hour, for all accident types. <br>
-									<b> Rush hour 7-9 </b> <br>
-									When looking at the freezing tab we see a spike in accidents <br> that also occur in the morning rush hour as well. <br> When there is frost the driving conditions are harder to <br> manage and time of the day matter a bit less.
-									<br> Move between frost and no frost tabs to see this! </p>
+							<div align="center">
+								<iframe src="characters_interactive.html" width=1010px height=620px></iframe>
 							</div>
+							<div style="width:auto">
+    						<div style="margin-left:40px;margin-right:40px;width:auto">
+								<h3>Sentiment analysis for some of the main characters</h3>
+								<p> Alright! Now we have interactive plots for the sentiment of certain characters.<br>
+									We can look at one character at a time or choose a few and see how the sentiment
+									score changes over the different seasons. <br>
+									Want to know more? We have an in depth analysis of this plot in the explainer
+									notebook that comes with the website. It is linked at the bottom of the website.
+									</div>
+									</div>
+
 						</section>
 					</section>
+
+
 
 
 					<!--Scroller3 -->
@@ -179,13 +172,19 @@
 
 				<!-- Season overview -->
 
-				<section id="cta" class="wrapper style4">
+				<section id="cta" class="wrapper style5">
+
+
 						<div class="inner">
 							<header>
 								<h2> Looking at the quotes and scripts of each season.</h2>
-								<p>Below you can choose a season and explore word clouds from the quotes
+
+								<p>To the right you can choose a season and explore word clouds from the quotes
 								and script for that specific season. You can also see the sentiment
-							value for that season or see how the sentiment varies over episodes.</p>
+							value for that season or see how the sentiment varies over episodes. <br>
+						  </p>
+							<div class="image"><img style='height: 100%; width: 100%; object-fit: contain' src="images/seasonsentiment.png" alt=""></div>
+							<p>Above is the visualization of the sentiment over all seasons of the Office.</p>
 							</header>
 							<ul class="actions stacked">
 								<li><a href="season1.html" class="button fit">Season 1</a></li>
@@ -198,11 +197,14 @@
 								<li><a href="season8.html" class="button fit">Season 8</a></li>
 								<li><a href="season9.html" class="button fit">Season 9</a></li>
 							</ul>
-						</div>
+
+							</div>
+
+
 					</section>
 
 				<!-- overview -->
-				<section id="ov" class="wrapper style2 special">
+				<section id="ov" class="wrapper style1 special">
 					<div class="inner">
 						<header class="major">
 							<h2>Project overview</h2>

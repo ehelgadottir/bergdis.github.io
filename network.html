@@ -24,10 +24,13 @@
 
 												<!-- Two -->
 												<!-- Pic of the network -->
-													<section id="network1" class="wrapper alt style2">
+													<section id="spotlight" class="wrapper alt style2">
 														<section class="spotlight">
-															<div class="image"><img src="images/networkpic.png" alt=""></div><div class="content">
-																<h2>The network</h2>
+															<h2>The network</h2>
+															<div class="image"><img src="images/networkpic.png" alt=""></div>
+															<div class="content">
+																<div>
+
 																<p> Here we have an undirected graph with the node size dependent on degree,
 																	color dependent on gender and edges between the nodes also dependent on gender.
 																	The yellow nodes are the characters that do not have a gender labeled on
@@ -38,15 +41,18 @@
 																	to the male characters in our network. There seems to be a lot of well connected
 																	characters in our network. This indicates that there are more than one main character in
 																	the series. Now lets take a closer look at our network by looking at the degree distribution. <br>
-
+																</div>
 																</p>
 															</div>
 														</section>
+														</section>
 
 														<!--The degree distribution-->
-														<section class="spotlight">
-															<div class="image"><img src="images/distribution_plot.png" alt=""></div><div class="content">
+														<section id="spotlight" class="wrapper alt style3">
+															<section class="spotlight">
 																<h2>Degree distribution</h2>
+															<div class="image"><img src="images/distribution_plot.png" alt=""></div><div class="content">
+
 																<p>Here we have the degree distribution for both in and out degree.
 																	We can right away see that this is not a random network which
 															 	  usually follows a poisson distribution. <br>
@@ -64,9 +70,11 @@
 														</section>
 
 														<!-- Random network -->
-														<section class="spotlight">
+														<section id="spotlight" class="wrapper alt style1">
+															<section class="spotlight">
+																<h2>Classification of the network</h2>
 								                            <div class="image"><img src="images/random_network.png" alt=""></div><div class="content">
-								                                <h2>Classification of the network</h2>
+
 																									<p>  Right away we see the difference between the random network
 																										and our network of The Office. Just from this comparison we can say that
 																										the network of The Office is not a random network.
@@ -115,7 +123,7 @@
 														</section>
 
 
-
+													</section>
 													</section>
 
 
@@ -128,61 +136,4 @@
 			<script src="assets_data/js/main.js"></script>
 
 	</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-                    <section id="machinel2" class="wrapper style1 special">
-                        <div class="inner">
-                            <h2>What have we learned?</h2>
-                                    <p> From our unsupervised learning, the SOM, we saw that we were able to distinguish
-                                        the different types of accidents and group them together.
-                                        <br> It gave us a good visualization of the
-                                         accidents <br> and we saw that more serious accident were grouped toegther - fatalities and serious injuries.  <br>
-                                        <br>
-
-                                        In our supervised learning we didn't learn much about the data when fitting the random forest, but confirmed our hunch that
-                                        using only weather and location information do not give us a good prediction of wether a car accident will result in injury. <br>
-
-                                    </p>
-
-                            </header>
-                            </ul>
-                        </div>
-                    </section>
-
-
-
-
-
-
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li> 2021 </li><li>DTU: <a href="https://kurser.dtu.dk/course/02806"></a>02806 Social data analysis and visualization</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-
 </html>
