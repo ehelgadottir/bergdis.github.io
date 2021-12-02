@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets_data/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Network -->
+
+												<!-- Two -->
+												<!-- Pic of the network -->
+													<section id="network1" class="wrapper alt style2">
+														<section class="spotlight">
+															<div class="image"><img src="images/networkpic.png" alt=""></div><div class="content">
+																<h2>The network</h2>
+																<p> Here we have an undirected graph with the node size dependent on degree,
+																	color dependent on gender and edges between the nodes also dependent on gender.
+																	The yellow nodes are the characters that do not have a gender labeled on
+																	their fandom wiki, they are also the smallest nodes indicating they are not very connected.
+																	We see that our largest nodes are blue and red so it seems that our
+																	important characters have a gender on the wiki. Overall we see that there
+																	are more blue connections in the whole network, this means there are more connections
+																	to the male characters in our network. There seems to be a lot of well connected
+																	characters in our network. This indicates that there are more than one main character in
+																	the series. Now lets take a closer look at our network by looking at the degree distribution. <br>
+
+																</p>
+															</div>
+														</section>
+
+														<!--The degree distribution-->
+														<section class="spotlight">
+															<div class="image"><img src="images/distribution_plot.png" alt=""></div><div class="content">
+																<h2>Degree distribution</h2>
+																<p>Here we have the degree distribution for both in and out degree.
+																	We can right away see that this is not a random network which
+															 	  usually follows a poisson distribution. <br>
+																	<b>In degree</b><br>
+																	Here we have a very skewed distribution to the left
+																	where it seems that most characters have degree equal to 1
+																	 while very few chracters have high degrees like our top 5
+																	 list consisiting on a few of our main characters.<br>
+																	 <b>Out degree</b><br>
+																	 Similar things can be said about the out degree distribtion,
+																	 however we do not have close to as high values for our maximum
+																	 degrees. It is skewed but much less than our in degree distribution.  <br>
+								                </p>
+															</div>
+														</section>
+
+														<!-- Random network -->
+														<section class="spotlight">
+								                            <div class="image"><img src="images/random_network.png" alt=""></div><div class="content">
+								                                <h2>Classification of the network</h2>
+																									<p>  Right away we see the difference between the random network
+																										and our network of The Office. Just from this comparison we can say that
+																										the network of The Office is not a random network.
+																										To confirm this we will look at the power exponent of degree distributions.
+								                                    <br>
+								                                    We can use the power exponent to determine what type of regime we are in.
+																										To do so we fit a powerlaw distirbution to our degree distribution.
+																										The results from the powerlaw fit are given in the table.
+																										<table>
+																										<thead>
+																										  <tr>
+																										    <th>Distribution</th>
+																										    <th>Degree exponent</th>
+																										  </tr>
+																										</thead>
+																										<tbody>
+																										  <tr>
+																										    <td>Degree</td>
+																										    <td>2.1488<br></td>
+																										  </tr>
+																										  <tr>
+																										    <td>In-degree</td>
+																										    <td>1.7756</td>
+																										  </tr>
+																										  <tr>
+																										    <td>Out-degree</td>
+																										    <td>2.2873</td>
+																										  </tr>
+																										</tbody>
+																										</table>
+								                                    <br>
+								                                    We see that all of the distribution are greater than 2,
+																										looking back at our types of regimes we have that this is a
+																										 Scale-free regime or Ultra Small World where the degree exponent
+																										 is 2 < &gamma; < 3.
+																										 This is what you would expect from a social network.
+																										 These type of networks have the property that the distances between node
+																										 is small becasue of hubs that reduce the distances significantly.
+																										 We also saw this in our visualization we had quite a lot of hubs
+																										 that connected our smaller nodes. This is also what we say with
+																										 our main characters being the most connected character - our hubs,
+																										 reducing the distances between our network significantly.
+
+																</p>
+															</div>
+														</section>
+
+
+
+													</section>
+
+
+		<!-- Scripts -->
+			<script src="assets_data/js/jquery.min.js"></script>
+			<script src="assets_data/js/jquery.dropotron.min.js"></script>
+			<script src="assets_data/js/browser.min.js"></script>
+			<script src="assets_data/js/breakpoints.min.js"></script>
+			<script src="assets_data/js/util.js"></script>
+			<script src="assets_data/js/main.js"></script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+                    <section id="machinel2" class="wrapper style1 special">
+                        <div class="inner">
+                            <h2>What have we learned?</h2>
+                                    <p> From our unsupervised learning, the SOM, we saw that we were able to distinguish
+                                        the different types of accidents and group them together.
+                                        <br> It gave us a good visualization of the
+                                         accidents <br> and we saw that more serious accident were grouped toegther - fatalities and serious injuries.  <br>
+                                        <br>
+
+                                        In our supervised learning we didn't learn much about the data when fitting the random forest, but confirmed our hunch that
+                                        using only weather and location information do not give us a good prediction of wether a car accident will result in injury. <br>
+
+                                    </p>
+
+                            </header>
+                            </ul>
+                        </div>
+                    </section>
+
+
+
+
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li> 2021 </li><li>DTU: <a href="https://kurser.dtu.dk/course/02806"></a>02806 Social data analysis and visualization</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
