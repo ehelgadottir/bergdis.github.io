@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Season 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">In the Office</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+					<section id="machinel" class="wrapper style1 special">
+							<div class="inner">
+									<h2>What do the characters say?</h2>
+													<p> Here we can explore what the main characters of the show
+														say. We made wordclouds for each of the main characters made
+														from the script of the show for each season
+
+													</p>
+
+									</header>
+									</ul>
+							</div>
+					</section>
+
+				<!-- Two -->
+					<section id="twos" class="wrapper alt style2">
+						
+						<section class="spotlight">
+							<div class="image"><img src="images/wordcloud_pics/wordcloud_Andy_char.png" alt=""></div>
+							<div class="content">
+								<h2>Andy Bernard</h2>
+							</div>
+							<div class="image"><img src="images/mains/Andy.jpeg" alt=""></div>
+						</section>
+
+
+						<section class="spotlight">
+							<div class="image"><img src="images/wordcloud_pics/wordcloud_1_script.png" alt=""></div><div class="content">
+								<h2>Script</h2>
+								<p>Here we have the wordcloud from the script. This is more accurate since all the
+									dialouge used to make this wordcloud.
+
+								</p>
+
+							</div>
+						</section>
+						<section class="spotlight">
+                            <div class="image"><img src="images/ásí.jpg" alt=""></div><div class="content">
+                                <h2>Sentiment</h2>
+																<p>
+																	Season 1 only has 6 episodes. Can you see something interesting about the sentiment
+																	developement?
+																</p>
+							</div>
+						</section>
+
+						<section id="cta" class="wrapper style1">
+
+
+								<div class="inner">
+									<header>
+										<h2> Explore other seasons</h2>
+
+										<p>Navigate to the overview pages for the other seasons. <br>
+									</p>
+									</header>
+									<ul class="actions stacked">
+										<li><a href="season2.html" class="button fit">Season 2</a></li>
+										<li><a href="season3.html" class="button fit">Season 3</a></li>
+										<li><a href="season4.html" class="button fit">Season 4</a></li>
+										<li><a href="season5.html" class="button fit">Season 5</a></li>
+										<li><a href="season6.html" class="button fit">Season 6</a></li>
+										<li><a href="season7.html" class="button fit">Season 7</a></li>
+										<li><a href="season8.html" class="button fit">Season 8</a></li>
+										<li><a href="season9.html" class="button fit">Season 9</a></li>
+									</ul>
+
+									</div>
+
+
+							</section>
+
+					</section>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li> 2021 </li><li>DTU: <a href="https://kurser.dtu.dk/course/02806">02806 Social data analysis and visualization</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
