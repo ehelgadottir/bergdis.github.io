@@ -31,11 +31,11 @@
 															<div class="content">
 
 
-																<p> Here we have an undirected graph with the node size dependent on degree,
-																	color dependent on gender and edges between the nodes also dependent on gender.
-																	The yellow nodes are the characters that do not have a gender labeled on
+																<p> Here we have an undirected graph with the node size dependent on <b>degree</b>,
+																	color dependent on <b>gender</b> and edges between the nodes also dependent on gender.
+																	The <b>yellow</b> nodes are the characters that do not have a gender labeled on
 																	their fandom wiki, they are also the smallest nodes indicating they are not very connected.
-																	We see that our largest nodes are blue and red so it seems that our
+																	We see that our largest nodes are <b>blue</b> and <b>red</b> so it seems that our
 																	important characters have a gender on the wiki. Overall we see that there
 																	are more blue connections in the whole network, this means there are more connections
 																	to the male characters in our network. There seems to be a lot of well connected
@@ -47,6 +47,46 @@
 															</div>
 														</section>
 														</section>
+
+														<section id="spotlight" class="wrapper alt style2">
+															<section class="spotlight">
+																<h2>Top 5 most connected characters</h2>
+																<div class="content">
+																<table>
+																	<thead>
+																	  <tr>
+																	    <th>Character</th>
+																	    <th>Degree</th>
+																	  </tr>
+																	</thead>
+																	<tbody>
+																	  <tr>
+																	    <td>Michael Scott</td>
+																	    <td>146</td>
+																	  </tr>
+																	  <tr>
+																	    <td>Dwight Schrute</td>
+																	    <td>119</td>
+																	  </tr>
+																	  <tr>
+																	    <td>Jim Halpert</td>
+																	    <td>107</td>
+																	  </tr>
+																	  <tr>
+																	    <td>Pam Beesly</td>
+																	    <td>100</td>
+																	  </tr>
+																	  <tr>
+																	    <td>Andy Bernard</td>
+																	    <td>91</td>
+																	  </tr>
+																	</tbody>
+																	</table>
+
+																	If you know the show then it is no surprise that Michael is our most connected character! Is there a character that you expected to be here and isn’t?
+																</div>
+															</section>
+															</section>
 
 														<!--The degree distribution-->
 														<section id="spotlight" class="wrapper alt style3">
@@ -64,7 +104,7 @@
 																	 while very few chracters have high degrees like our top 5
 																	 list consisiting on a few of our main characters.<br>
 																	 <b>Out degree</b><br>
-																	 Similar things can be said about the out degree distribtion,
+																	 Similar things can be said about the out degree distribution,
 																	 however we do not have close to as high values for our maximum
 																	 degrees. It is skewed but much less than our in degree distribution.  <br>
 								                </p>
@@ -79,7 +119,7 @@
 								                            <div class="image" style="margin-top:20px"><img src="images/random_network.png" alt=""></div>
 																						<div class="content">
 
-																									<p>  Right away we see the difference between the random network
+																									<p>  Now let's look at our network distribution compared to a random network. Right away we see the difference between the random network
 																										and our network of The Office. Just from this comparison we can say that
 																										the network of The Office is not a random network.
 																										To confirm this we will look at the power exponent of degree distributions.
@@ -110,9 +150,9 @@
 																										</tbody>
 																										</table>
 								                                    <br>
-																										We see that the total and out degree distributions are greater than 2,
-																										looking back at our types of regimes we have that this is a Scale-free
-																										regime or Ultra Small World where the degree exponent is 2 < &gamma; < 3.
+																										We see that the total and out degree distributions are greater than 2, we know
+																										that this is a Scale-free
+																										regime or Ultra Small World because the degree exponent is 2 < &gamma; < 3.
 																										This is what you would expect from a social network.
 																										These types of networks have the property that the distances between nodes
 																										is small because of hubs that reduce the distances significantly. We also saw
